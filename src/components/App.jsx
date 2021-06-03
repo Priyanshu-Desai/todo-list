@@ -1,5 +1,6 @@
 import React from "react";
 import TodoItem from './TodoItem'
+import InputArea from './InputArea'
 
 function App() {
   const [todoText, setTodoText] = React.useState();
@@ -32,12 +33,7 @@ function App() {
       <div className="heading">
         <h1>To-Do List</h1>
       </div>
-      <div className="form">
-        <input type="text" value={todoText} onChange={readTodoText} />
-        <button onClick={addTodoItem}>
-          <span>Add</span>
-        </button>
-      </div>
+        <InputArea text={todoText} readText={readTodoText} addItem={addTodoItem}/>
       <div>
         <ul>
           {todoItems.map((item, index) => (
