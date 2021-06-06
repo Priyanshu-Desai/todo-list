@@ -14,6 +14,11 @@ you computer must have node installed to run this app. if you want to install no
 
 now you can add items to your list! Click on an item and the item will be removed.
 
+# SLA
+An Service-level agreement (SLA) is a commitment between a service provider and a client. The SLA will show long a service will be available for and how much time it will be down for.
+This app has 100% uptime because it is run locally on the client's machine. 
+
+
 # copyright and license
 copyright priyanshu-desai
 
